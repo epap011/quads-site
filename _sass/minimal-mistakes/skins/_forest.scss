@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Mint skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #fafafa !default;      // white background
+$text-color: #060606 !default;            // pure black text
+$muted-text-color: #555555 !default;      // muted gray for less emphasis
+$primary-color: #007acc !default;          // a modern blue accent instead of green
+$border-color: #dddddd !default;           // light gray border
+$link-color: #007acc !default;              // blue links for main site
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: darken($text-color, 20%) !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* Footer colors — dark green theme */
+$footer-background-color: #222222 !default;  // dark forest green
+$footer-text-color: #cecece !default;        // pale minty green text for footer
+$footer-link-color: #38d39f !default;        // vibrant teal-green links for footer
+
+/* Override footer styles */
+.page__footer {
+  background-color: $footer-background-color !important;
+  color: $footer-text-color !important;
+
+  a {
+    color: $footer-link-color !important;
+
+    &:hover {
+      color: lighten($footer-link-color, 10%) !important;
+      text-decoration: underline;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $footer-text-color !important;
+  }
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
