@@ -22,9 +22,9 @@ title_separator          : "-"
 subtitle                 : "Quantum-Enhanced Adaptive Computer Systems" # site tagline that appears below site title in masthead
 name                     : "QUADS"
 description              : "Quantum-Enhanced Adaptive Computer Systems"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://epap011.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/quads-site" # the subpath of your site, e.g. "/blog"
+repository               : "epap011/quads-site" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/quads-logo.png"      # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
